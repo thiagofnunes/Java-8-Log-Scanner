@@ -1,0 +1,14 @@
+2010-10-06 15:03:28,834 [WorkerThread-19] INFO  [ServiceProvider]: Executing request startRendering with arguments [115771, 0] on service object { ReflectionServiceObject -> com.dn.gaverzicht.dms.services.DocumentService@4a3a4a3a }
+2010-10-06 15:03:28,848 [WorkerThread-17] INFO  [ServerSession]: Processing command object: {class=com.dn.gaverzicht.dms.models.Document, type=get, key=115771}
+2010-10-06 15:03:28,854 [WorkerThread-13] DEBUG [RenderingQueue]: Checking to add command to queue: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:28,854 [WorkerThread-13] DEBUG [RenderingQueue]: Adding command to queue: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:28,854 [WorkerThread-13] INFO  [ServiceProvider]: Service startRendering returned 1286395408854-2742
+2010-10-06 15:03:28,854 [WorkerThread-19] DEBUG [RenderingQueue]: Checking to add command to queue: { RenderingCommand - uid: 1286395408854-9039 }
+2010-10-06 15:03:28,854 [RenderingQueue] INFO  [RenderingQueue]: Executing: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:28,855 [WorkerThread-19] DEBUG [RenderingQueue]: Found existing command: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:28,855 [WorkerThread-19] INFO  [ServiceProvider]: Service startRendering returned 1286395408854-2742
+2010-10-06 15:03:28,855 [RenderingQueue] DEBUG [DocumentService]: Adding completed command: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:29,325 [WorkerThread-15] INFO  [ServerSession]: Processing command object: {arguments=[1286395408854-2742], type=request, name=getRendering}
+2010-10-06 15:03:29,326 [WorkerThread-15] INFO  [ServiceProvider]: Executing request getRendering with arguments [1286395408854-2742] on service object { ReflectionServiceObject -> com.dn.gaverzicht.dms.services.DocumentService@4a3a4a3a }
+2010-10-06 15:03:29,326 [WorkerThread-15] DEBUG [DocumentService]: Removing command from the list: { RenderingCommand - uid: 1286395408854-2742 }
+2010-10-06 15:03:29,326 [WorkerThread-15] INFO  [DocumentService]: Found completed rendering: { RenderingCommand - uid: 1286395408854-2742 }
